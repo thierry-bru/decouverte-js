@@ -14,7 +14,6 @@ function saluerSansAlertes(event) {
             document.querySelector('#error').innerHTML = `Vous ne pouvez pas avoir ${getNombreClasse()} classe(s): entre 1 et 3 maximum.`;
         return;
         }
-
     // génération du message et des emotes
     let message = genererMessageSalutation();
 
