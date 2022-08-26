@@ -15,7 +15,7 @@ console.log(stagiaires);
 console.log(stagiaires[1].prenom);
 console.log(stagiaires[0].salutation());
 let anotherStagiaire = new Stagiaire("Lucette","Anderson");
-console.log(anotherStagiaire);*/
+console.log(anotherStagiaire);
 
 let stagiaires = new Classe("DWWM-14",new  Date (2022,9,1),new Date(2023,5,25));
 stagiaires.ajouterStagiaire(new Stagiaire("Lucette","Anderson"));
@@ -23,7 +23,7 @@ stagiaires.ajouterStagiaire(new Stagiaire("Martin","Luther"));
 console.log(stagiaires);
 console.log(stagiaires.dateDebut.toString());
 let dateNaissance = new  Date (1977,10,24);
-console.log(dateNaissance.toString());
+console.log(dateNaissance.toString());*/
 
 let btnCreer = document.querySelector('#btnCreer');
 let btnAfficher =  document.querySelector('#btnAfficher');
